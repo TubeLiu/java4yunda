@@ -1,4 +1,4 @@
-FROM 10.29.0.5:5000/shares/tomcat:8.5.29-jre8
+FROM tomcat:8.5.29-jre8
 
 ADD docker-demo.war /usr/local/tomcat/webapps/
 
